@@ -105,7 +105,7 @@ void loop() {
         digitalWrite(greenLED, LOW);
       }
 
-      // -------- CLOSE DOOR --------
+      // ------- CLOSE DOOR --------
       else if (doorOpened && strcmp(enteredPIN, closePIN) == 0) {
 
         digitalWrite(greenLED, HIGH);
